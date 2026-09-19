@@ -1,0 +1,23 @@
+{
+  "name": "Sbírka zajímavostí",
+  "short_name": "Zajímavosti",
+  "description": "Vlož odkaz na video — appka ho přepíše a shrne do bodů.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FAF7EE",
+  "theme_color": "#29594F",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "share_target": {
+    "action": "./index.html",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
